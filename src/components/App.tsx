@@ -1,11 +1,11 @@
-import "./App.css";
-import MyTitle from "./MyTitle";
+import "../App.css";
+import PokemonCard from "./PokemonCard";
 
 function App() {
   return (
-    <section>
-      <MyTitle/>
-    </section>
+    <div>
+      <PokemonCard/>
+    </div>
   );
 }
 
