@@ -33,11 +33,11 @@ function App() {
 const [pokemonIndex, setPokemonIndex] = useState(0);
 
 const nextPokemon = () => {
-  setPokemonIndex((prevIndex) => (prevIndex +1) % pokemonList.length)
+  setPokemonIndex(pokemonIndex +1)
 }
 
 const previousPokemon = () => {
-  setPokemonIndex((prevIndex) => prevIndex === 0 ? pokemonList.length -1 : prevIndex -1);
+  setPokemonIndex(pokemonIndex -1);
 };
 
   return (
